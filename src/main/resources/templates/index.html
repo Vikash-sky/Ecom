@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org"
+th:replace="~{base::Layout(~{::section})}">
+<head>
+	<meta charset="UTF-8">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <section>
+		<!--  Start Slider-->
+		<div id="carouselExampleIndicators" class="carousel slide">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="https://imgs.search.brave.com/OVwRyB6lkhkh3GTOt4pdSTgJZDtKKGa7xY46toa1Lfg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tcGhv/dG8vc2hvcHBpbmct/YmFncy13aXRoLXNo/b3BwaW5nLWNhcnQt/c3BhY2UtdGV4dC1i/YW5uZXItYmFja2dy/b3VuZF8zNDM3MzIt/MjQ5MjMuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MCZxPTgw" class="d-block w-100" alt="..." height="450px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="https://imgs.search.brave.com/YpLxfd5NZJTJwryES0x3Wu_5nF0REXXIrAraHflZx9I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzk2LzgzLzY4/LzM2MF9GXzI5Njgz/NjgxMV8wOE50dFMz/c2QyaVUxVVhtRW14/YU8xWmt3WEtOSGtk/Ny5qcGc" class="d-block w-100" alt="..." height="450px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="https://imgs.search.brave.com/_bsqZxYSWUTb4bCadRlN2S5KbYuWZYqbSkGHMoKgBok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMzI5/NDQ3Mi9wZXhlbHMt/cGhvdG8tMzI5NDQ3/Mi5qcGVnP2NzPXRp/bnlzcmdiJmRwcj0x/Jnc9NTAw" class="d-block w-100" alt="..." height="450px">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+		<!--  End Slider-->
+		
+		<!-- Start Category Module-->
+		
+		<div class="container">
+			<div class="row">
+				<p class="text-center fs-4">Category</p>
+				<div class="col-md-2">
+					<div class="card rounded-circle shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+						<div class="card-body text-center">
+							<img src="img/ele.avif" width="65%" height="140px">
+							<p>Electronics</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- End Category Module-->
+    </section>
+   
+
+</body>
+</html>
