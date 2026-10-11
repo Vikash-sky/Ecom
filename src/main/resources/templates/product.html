@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org" th:replace="~{base::Layout(~{::section})}">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+</head>
+
+<body>
+	<section>
+		<div class="container-fluid bg-dark p-5 mt-5">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<form>
+						<div class="input-group">
+							<input type="text" class="form-control" name="ch">
+							<button class="btn btn-light text-dark ms-3 col-md-2"><i
+									class="fa-solid fa-magnifying-glass"></i>Search</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container-fluid mt-1">
+			<div class="row">
+				<div class="col-md-2 p-0">
+					<div class="card shadow-sm p-0 mb-5 bg-body-tertiary rounded">
+						<div class="card-body">
+							<div class="list-group">
+								<a href="#" class="list-group-item list-group-item-action active bg-dark"
+									aria-current="true">
+									Categories
+								</a>
+								<a href="#" class="list-group-item list-group-item-action">Electronics</a>
+								<a href="#" class="list-group-item list-group-item-action">Mobile phone</a>
+								<a href="#" class="list-group-item list-group-item-action">Laptop</a>
+								<a href="#" class="list-group-item list-group-item-action">Clothes</a>
+								<a href="#" class="list-group-item list-group-item-action">Beauty</a>
+								<a href="#" class="list-group-item list-group-item-action">Grocery</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10">
+					<div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+						<div class="card-body">
+							<p class="fs-3 text-center">Products</p>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body">
+											<img src="img/Laptop.webp" width="100%" height="150px">
+											<p class="fs-5 text-center">Apple MacBook Pro</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 1,49,999 <span class="fs-6 text-success">25% off</span>
+												</p>
+												<a href="/product" class="btn btn-primary col-md-6 offset-md-3">View Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!--  ToDo Remove after backendimplement-->
+
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body">
+											<img src="img/Mobile.png" width="100%" height="150px">
+											<p class="fs-5 text-center">Iphone 17 pro</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 1,70,000 <span class="fs-6 text-success">5% off</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body">
+											<img src="img/Asus.webp" width="100%" height="150px">
+											<p class="fs-5 text-center">Asus Monitor</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 23,999.00 <span class="fs-6 text-success">40% off</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-3">
+									<div class="card">
+										<div class="card-body">
+											<img src="img/Ac.jpg" width="100%" height="150px">
+											<p class="fs-5 text-center">LG AC</p>
+											<div class="row text-center">
+												<p class="fs-6 fw-bold">
+													&#8377; 48,999.00 <span class="fs-6 text-success">35% off</span>
+												</p>
+												<a class="btn btn-primary col-md-6 offset-md-3">View Details</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org" 
+th:replace="~{base::Layout(~{::section})}">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+</head>
+<body>
+	
+	<section>
+	
+		
+			
+			<!-- Start-->
+		    <div class="container"
+		         style="box-shadow: 0 0 8px 0 rgba(0,0,0,0.3); margin-top: 70px; margin-bottom: 300px;">
+
+		        <div class="row align-items-center p-4">
+
+		            <!-- Left Side: Laptop Image -->
+		            <div class="col-md-6 text-center">
+		                <img src="img/Laptop.webp"
+		                     alt="Laptop"
+		                     class="img-fluid"
+		                     style="max-height: 450px;">
+		            </div>
+
+		            <!-- Right Side: Product Details -->
+		            <div class="col-md-6 p-4">
+
+		                <h2>Apple MacBook Pro</h2>
+
+		                <p class="text-secondary">
+		                    Apple Macbook Pro 15 inch , M4 chips, 10-core CPU,10-core GPU, 24-hours battery Life 
+							 , powerful performance
+		                </p>
+
+						<span class="fw-bold">Price :</span>
+		                <h3 class="text-dark">
+		                    ₹1,49,999
+		                    <span class="text-secondary"
+		                          style="font-size: 18px; text-decoration: line-through;">
+		                        ₹1,99,999
+		                    </span>
+		                </h3>
+
+		                <p class="text-success fw-bold">
+		                    25% OFF
+		                </p>
+
+		                <p>
+							<span class="fw-bold">Product Details</span><br>Status :
+							<span class="badge bg-success">Available</span>
+							<span class="badge bg-warning">out of stock</span>
+		                   
+		                </p>
+
+		                <p>
+							<span class="badge bg-success"><i class="fa-solid fa-wallet"></i>:</span>
+							Case on Delivary
+		                </p>
+
+		                <p>
+		                    <b><i class="fa-solid fa-truck-fast"></i></b> Free Shipping
+		                </p>
+
+		                <p>
+		                    <b><i class="fa-solid fa-arrow-rotate-left"></i></b>
+		                    7 Days Return Available
+		                </p>
+
+		                <button class="btn btn-dark mt-3">
+		                    <i class="fa-solid fa-cart-shopping"></i>
+		                    Add to Cart
+		                </button>
+
+		                <button class="btn btn-outline-dark mt-3">
+		                    Buy Now
+		                </button>
+
+		            </div>
+
+		        </div>
+		    </div>
+		
+		
+		
+	</section>
+</body>
+</html>
